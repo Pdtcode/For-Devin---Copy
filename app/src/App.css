@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  background-color: #000000;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Aboreto&display=swap');
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Aboreto';
+  animation: fadeIn 5s;
+}
+
+.btn {
+  background-color: transparent;
+  color: black;
+  filter: invert(1);
+  font-size: larger;
+  font-family: 'Aboreto';
+  text-decoration: none;
+}
+
+.box {
+  width:150px;
+  height:35px;
+  padding: 10px 20px;
+  border:3px solid white;
+  border-radius: 30px;
+  background: black;
+}
+
+.box:hover {
+  filter: invert(1);
+  transition: 1s;
+}
+
+
